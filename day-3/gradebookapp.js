@@ -44,6 +44,8 @@ function getAverage(scores) {
       return "Class average: " + avg + "."  + " Your grade: " + grade +". You passed the course.";
       } else return "Class average: " + avg + "."  + " Your grade: " + grade +". You failed the course.";
   }
+
+  // below codes are me running the above codes, feel free to customize the values and run them.
   console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
   
   console.log(getGrade(96));
